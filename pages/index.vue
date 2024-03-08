@@ -2,6 +2,11 @@
 definePageMeta({
 	layout: 'app',
 });
+
+useHead({
+	title: 'Home',
+});
+
 const route = useRoute();
 </script>
 

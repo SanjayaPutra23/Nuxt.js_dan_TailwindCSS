@@ -1,5 +1,5 @@
 <template>
-	<header class="flex justify-between items-center">
+	<header class="flex justify-between items-center mt-5">
 		<div>
 			<NuxtLink to="/" class="text-xl font-semibold link">Porto</NuxtLink>
 		</div>
@@ -7,6 +7,7 @@
 			<ul class="flex space-x-4">
 				<li><NuxtLink to="/" class="link">Home</NuxtLink></li>
 				<li><NuxtLink to="/about" class="link">About</NuxtLink></li>
+				<li><NuxtLink to="/project" class="link">Project</NuxtLink></li>
 				<li><NuxtLink to="/blog" class="link">Blog</NuxtLink></li>
 			</ul>
 		</nav>

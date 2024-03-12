@@ -24,9 +24,6 @@ useSeoMeta({
 	twitterTitle: 'Porto - My Amazing Site',
 	twitterDescription: 'This is my amazing site, let me tell you all about it.',
 });
-
-const colorMode = useColorMode();
-console.log(colorMode.preference);
 </script>
 
 <template>

@@ -1,3 +1,16 @@
+---
+title: 'Markdown example content'
+description: 'This is an example of a markdown document with various formatting elements.'
+head:
+  meta:
+    - name: 'author'
+      content: 'aim'
+    - name: 'og:title'
+      content: 'Markdown example content'
+    - name: 'og:description'
+      content: 'This is an example of a markdown document with various formatting elements.'
+---
+
 # Markdown Example
 
 This is an example of a markdown document with various formatting elements.

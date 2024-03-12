@@ -24,6 +24,9 @@ useSeoMeta({
 	twitterTitle: 'Porto - My Amazing Site',
 	twitterDescription: 'This is my amazing site, let me tell you all about it.',
 });
+
+const colorMode = useColorMode();
+console.log(colorMode.preference);
 </script>
 
 <template>
@@ -38,5 +41,9 @@ useSeoMeta({
 <style>
 body {
 	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	@apply bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100;
 }
 </style>

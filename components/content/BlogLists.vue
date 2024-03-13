@@ -8,13 +8,15 @@ useHead({
 });
 
 const { data: posts } = await useAsyncData('blog-list', () => {
-	return queryContent('blog').only(['_path', 'title']).find();
+	return queryContent('blog')
+		.where({ _path: { $ne: '/blog' } })
+		.only(['_path', 'title'])
+		.find();
 });
 </script>
 
 <template>
-	<section class="prose dark:prose-invert">
-		<h1 class="text-2xl font-bold mb-10">Blog</h1>
+	<section class="not-prose">
 		<ul>
 			<li v-for="(post, index) in posts" :key="index">
 				<NuxtLink :to="post._path">{{ post.title }}</NuxtLink>

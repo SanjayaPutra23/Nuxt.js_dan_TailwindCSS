@@ -15,6 +15,7 @@ head:
       content: 'My Page Title'
     - name: 'og:image'
       content: '/images/vuejs.png'
+publishedAt: 2024-03-02 20:11:00
 ---
 
 # Apa itu Vue.js?

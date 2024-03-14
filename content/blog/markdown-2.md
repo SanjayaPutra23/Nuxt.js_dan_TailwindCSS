@@ -9,6 +9,7 @@ head:
       content: 'Markdown example content 2'
     - name: 'og:description'
       content: 'This is an example of a markdown document with various formatting elements.'
+publishedAt: 2024-03-02 20:11:00
 ---
 
 # Markdown Example 2

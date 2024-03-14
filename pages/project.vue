@@ -9,8 +9,7 @@ useHead({
 </script>
 
 <template>
-	<div>
-		<h1 class="text-2xl font-bold mb-10">Project</h1>
-		<ProjectList />
-	</div>
+	<article class="prose dark:prose-invert">
+		<ContentDoc path="/project" />
+	</article>
 </template>

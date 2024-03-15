@@ -9,7 +9,7 @@ useHead({
 </script>
 
 <template>
-	<article class="prose dark:prose-invert">
+	<article class="prose dark:prose-invert max-w-none">
 		<ContentDoc path="/project" />
 	</article>
 </template>

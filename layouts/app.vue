@@ -27,7 +27,7 @@ useSeoMeta({
 </script>
 
 <template>
-	<div class="container mx-auto">
+	<div class="container max-w-2xl mx-auto">
 		<Header />
 		<main class="p-2 mt-10">
 			<slot />

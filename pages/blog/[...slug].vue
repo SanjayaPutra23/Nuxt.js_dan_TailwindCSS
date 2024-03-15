@@ -10,7 +10,7 @@ useHead({
 
 <template>
 	<article
-		class="prose dark:prose-invert prose-pre:bg-gray-200 dark:prose-pre:bg-gray-800 prose-pre:text-gray-700 dark:prose-pre:text-gray-300"
+		class="max-w-none prose dark:prose-invert prose-pre:bg-gray-200 dark:prose-pre:bg-gray-800 prose-pre:text-gray-700 dark:prose-pre:text-gray-300"
 	>
 		<ContentDoc v-slot="{ doc }">
 			<div class="grid grid-cols-6 gap-16">

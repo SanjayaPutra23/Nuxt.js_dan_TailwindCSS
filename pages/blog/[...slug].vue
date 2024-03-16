@@ -42,20 +42,25 @@ onMounted(() => {
 	<article
 		class="max-w-none prose dark:prose-invert prose-pre:bg-gray-200 dark:prose-pre:bg-gray-800 prose-pre:text-gray-700 dark:prose-pre:text-gray-300"
 	>
-		<ContentDoc v-slot="{ doc }">
-			<div class="grid grid-cols-6 gap-16">
-				<div :class="{ 'col-span-4': doc.toc, 'col-span-6': !doc.toc }">
-					<ContentRenderer :value="doc" />
+		<ContentDoc>
+			<template #not-found>
+				<h1 class="text-4xl">Page Not Found</h1>
+			</template>
+			<template v-slot="{ doc }">
+				<div class="grid grid-cols-6 gap-16">
+					<div :class="{ 'col-span-4': doc.toc, 'col-span-6': !doc.toc }">
+						<ContentRenderer :value="doc" />
+					</div>
+					<div class="col-span-2 not-prose" v-if="doc.toc">
+						<aside class="sticky top-8">
+							<div class="font-semibold mb-2">Table of Contents</div>
+							<nav>
+								<TocLink :links="doc.body.toc.links" :active-id="activeId" />
+							</nav>
+						</aside>
+					</div>
 				</div>
-				<div class="col-span-2 not-prose" v-if="doc.toc">
-					<aside class="sticky top-8">
-						<div class="font-semibold mb-2">Table of Contents</div>
-						<nav>
-							<TocLink :links="doc.body.toc.links" :active-id="activeId" />
-						</nav>
-					</aside>
-				</div>
-			</div>
+			</template>
 		</ContentDoc>
 	</article>
 </template>

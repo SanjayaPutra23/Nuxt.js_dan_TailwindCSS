@@ -6,16 +6,10 @@ definePageMeta({
 useHead({
 	title: 'Home',
 });
-
-const route = useRoute();
 </script>
 
 <template>
-	<div>
-		<h1>Nuxt Routing set up successfully!</h1>
-		<p>Current route: {{ route.path }}</p>
-		<a href="https://nuxt.com/docs/getting-started/routing" target="_blank"
-			>Learn more about Nuxt Routing</a
-		>
-	</div>
+	<article class="prose dark:prose-invert max-w-none">
+		<ContentDoc path="/" />
+	</article>
 </template>

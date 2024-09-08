@@ -1,6 +1,6 @@
 # Home
 
-## I'm Aim
+## I'm Sanjaya
 
 Read more [about me](/about), or see my latest [projects](/project).
 

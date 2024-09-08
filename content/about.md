@@ -17,11 +17,13 @@ head:
 
 ## Me
 
-I am an IT enthusiast with 8 years of experience as a professional software engineer, content creator, and programming instructor. In addition to being known as a fast learner programmer, I also manage my own YouTube channel, which serves as a platform for sharing programming tutorials. Teaching and establishing networks within the community have also become areas of expertise for me in this field. In 2017 I become one of Graduate on time and won the best thesis award
+Nama saya Sanjaya, lulusan SMA dengan jurusan IPA. Saat ini, saya sedang melanjutkan pendidikan di bidang Teknik Informatika. Ketertarikan saya terhadap teknologi dan pemrograman tumbuh sejak sekolah menengah, dan saya semakin tertarik untuk mendalami dunia pengembangan perangkat lunak, teknologi web, serta inovasi di bidang IT. Saya bersemangat untuk terus belajar dan mengembangkan keterampilan saya di dunia teknologi.
 
 ## Skill
 
-- Nuxt
+- HTML
+- CSS
+- JavaScript
+- React
 - Vue
-- Node
-- MongoDB
+- Nuxt

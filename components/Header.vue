@@ -2,7 +2,7 @@
 	<header class="flex justify-between items-start md:items-center mt-5">
 		<div class="flex items-center md:space-x-12">
 			<div class="hidden md:block">
-				<NuxtLink to="/" class="text-xl font-semibold link">Porto</NuxtLink>
+				<NuxtLink to="/" class="text-xl font-semibold link">Portofolio</NuxtLink>
 			</div>
 			<nav class="font-mono">
 				<ul class="flex flex-col md:flex-row md:space-x-4">
